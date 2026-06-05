@@ -1,4 +1,12 @@
-# AWS Certified Machine Learning Engineer – Associate (MLA-C01)
+<h1 align="center">AWS Certified Machine Learning Engineer – Associate (MLA-C01)</h1>
+
+<p align="center">
+  <img src="./aws-certified-machine-learning-engineer-associate.png" width="180">
+</p>
+
+<p align="center">
+Study notes and concept summaries for AWS Machine Learning Associate certification preparation.
+</p>
 ## Exam Preparation Guide
 
 > This guide covers every domain and topic tested on the MLA-C01 exam.
