@@ -1,5 +1,5 @@
 # AWS Certified Machine Learning Engineer – Associate (MLA-C01)
-## Complete Exam Preparation Guide
+## Exam Preparation Guide
 
 > This guide covers every domain and topic tested on the MLA-C01 exam.
 > Built from hands-on study, practice exams, and deep dives into AWS documentation.
@@ -17,7 +17,7 @@
 | **Format** | Multiple choice, multiple select, ordering/sequencing |
 | **Price** | $300 USD |
 
-## 📊 Domain Weights
+## Domain Weights
 
 | Domain | Topic | Weight |
 |---|---|---|
@@ -135,7 +135,7 @@
 |---|---|---|---|
 | **Standard / Z-score** | `(x - mean) / std` | Normal distribution, no outliers | Outliers present |
 | **Min-Max** | `(x - min) / (max - min)` | Neural nets, need [0,1] range | Outliers present |
-| **Robust Scaler** | `(x - median) / IQR` | **Outliers present** ✅ | Clean data |
+| **Robust Scaler** | `(x - median) / IQR` | **Outliers present**  | Clean data |
 | **Max Absolute** | `x / max(|x|)` | Sparse data, preserve zeros | Dense data |
 | **L1 Normalization** | row / Σ|row| | Text vectors (TF-IDF) | Tabular features |
 | **L2 Normalization** | row / ||row|| | Embeddings | Tabular features |
@@ -157,7 +157,7 @@
 | Drop rows | Few rows missing, large dataset |
 | Drop column | Column >50% missing |
 | **Mean** | Numeric, no outliers, normal distribution |
-| **Median** | Numeric WITH outliers or skew ✅ |
+| **Median** | Numeric WITH outliers or skew |
 | **Mode** | Categorical |
 | **Forward fill** | Time series |
 | **Indicator + impute** | Missingness itself has signal |
@@ -842,19 +842,6 @@ Edge deployment:    Train → Neo compile → Greengrass deploy
 | "Multiple notebooks share data" | EFS |
 | "Distributed training, large dataset" | FSx for Lustre |
 
----
-
-## Final week study plan
-
-| Day | Focus |
-|---|---|
-| Day 1 | Domain 1 — Data formats, ingestion, Feature Store, leakage |
-| Day 2 | Domain 2 — Algorithm selection table, metrics decision rules |
-| Day 3 | Domain 3 — Endpoint types, deployment strategies, CloudFormation |
-| Day 4 | Domain 4 — Model Monitor, IAM/KMS, networking (VPC Endpoints) |
-| Day 5 | Full practice exam (65 questions, timed) |
-| Day 6 | Review every wrong answer, re-read weak sections |
-| Day 7 | Final review of trap patterns + cheat sheet only |
 
 ---
 
