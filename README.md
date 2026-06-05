@@ -15,7 +15,7 @@
 | **Questions** | 65 questions |
 | **Passing score** | 720 / 1000 |
 | **Format** | Multiple choice, multiple select, ordering/sequencing |
-| **Price** | $300 USD |
+| **Price** | $150 USD |
 
 ## Domain Weights
 
